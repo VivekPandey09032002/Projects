@@ -1,0 +1,144 @@
+/* navbar css */
+
+#navbarNav{
+    justify-content: end;
+}
+.navbarColor {
+    background-color:  #e6e6e6;
+}
+#nav-img {
+    width: 80px;
+    height: auto;
+}
+
+.nav-item{
+    color : white;
+}
+
+/* sign up */
+
+
+.my-card{
+    -webkit-box-shadow: 6px 3px 10px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 3px 10px -6px rgba(0,0,0,0.75);
+    box-shadow: 6px 3px 10px -6px rgba(0,0,0,0.75);
+    
+}
+
+.signup-figure {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-image-link {
+    display: block;
+    margin: 30px auto;
+}
+
+/* login page */
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+
+/* contact us */
+.home-div {
+    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+
+}
+
+.contact_a{
+
+  color: rgb(33, 37, 41);
+  text-decoration: underline;       
+}
+/* aobut us */
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+
+
+ .about-container {
+    background-color: #545454;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    height: 100vh
+}
+
+.carding {
+    width: 380px;
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+    background-color: #fff;
+    position: relative;
+    height: 370px;
+    
+}
+
+.upper {
+    height: 100px
+}
+
+.upper img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 95px;
+}
+
+.user {
+    position: relative
+}
+
+.profile img {
+    height: 80px;
+    width: 80px;
+    margin-top: 2px
+}
+
+.profile {
+    position: absolute;
+    top: -50px;
+    left: 38%;
+    height: 90px;
+    width: 90px;
+    border: 3px solid #fff;
+    border-radius: 50%
+}
+
+.follow {
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 35px
+}
+
+.stats> span {
+    font-size: 12px;
+    font-weight :600
+}
+
+.follow > a{
+    text-decoration: none;
+    color: cornsilk;
+} 
+
